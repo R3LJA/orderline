@@ -1,0 +1,11 @@
+ship_to_id,customer_id,name,line1,line2,city,state,postal_code,country
+ST-21-01,C10021,Northwind Health - Main Hospital,1200 Harbor Blvd,Receiving Dock 3,Seattle,WA,98101,US
+ST-21-02,C10021,Northwind Health - Eastside Clinic,455 Lakeview Dr,Suite 200,Bellevue,WA,98004,US
+ST-45-01,C10045,Lakeside Surgical Center,88 Shoreline Ave,,Madison,WI,53703,US
+ST-78-01,C10078,Pine Valley Clinics - Central Supply,2100 Ridge Rd,Bldg C,Boise,ID,83702,US
+ST-78-02,C10078,Pine Valley Clinics - Meridian,77 Fairview Ave,,Meridian,ID,83642,US
+ST-03-01,C10103,Harbor Point Medical Supply DC,9 Dockside Way,,Portland,ME,04101,US
+ST-17-01,C10117,St. Brigid Rehabilitation Center,310 Elm St,,Dayton,OH,45402,US
+ST-32-01,C10132,Mesa Orthopedic Partners,5150 E Camelback Rd,Suite 310,Phoenix,AZ,85018,US
+ST-50-01,C10150,Cedar Ridge Dental Group,640 Cedar Ridge Pkwy,,Asheville,NC,28803,US
+ST-66-01,C10166,Bayview Animal Hospital,21 Bay St,,Monterey,CA,93940,US

@@ -1,0 +1,31 @@
+{
+  "file": "09-riverbend-unknown-RUC-5520.pdf",
+  "po_number": "RUC-5520",
+  "customer_name": "Riverbend Urgent Care",
+  "order_date": "2026-10-29",
+  "requested_date": "2026-11-14",
+  "ship_to_postal_code": "97401",
+  "carrier_account": null,
+  "lines": [
+    {
+      "customer_part": "MS-GLV-NIT-M",
+      "quantity": 10,
+      "unit_of_measure": "BX",
+      "unit_price": 12.5
+    },
+    {
+      "customer_part": "MS-IVK-STD",
+      "quantity": 1,
+      "unit_of_measure": "CS",
+      "unit_price": 210.0
+    }
+  ],
+  "expected": {
+    "customer_id": null,
+    "ship_to_id": null,
+    "status": "blocked",
+    "flags": [
+      "unknown_customer"
+    ]
+  }
+}

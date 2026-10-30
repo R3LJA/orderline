@@ -1,0 +1,37 @@
+{
+  "file": "08-bayview-upsidedown-BV-311.pdf",
+  "po_number": "BV-2026-311",
+  "customer_name": "Bayview Animal Hospital",
+  "order_date": "2026-10-29",
+  "requested_date": "2026-11-07",
+  "ship_to_postal_code": "93940",
+  "carrier_account": null,
+  "lines": [
+    {
+      "customer_part": "MS-THM-DIG",
+      "quantity": 1,
+      "unit_of_measure": "BX",
+      "unit_price": 110.0
+    },
+    {
+      "customer_part": "MS-BND-EL4",
+      "quantity": 3,
+      "unit_of_measure": "BX",
+      "unit_price": 22.0
+    },
+    {
+      "customer_part": "MS-ALC-PAD",
+      "quantity": 2,
+      "unit_of_measure": "DZ",
+      "unit_price": 4.5
+    }
+  ],
+  "expected": {
+    "customer_id": "C10166",
+    "ship_to_id": "ST-66-01",
+    "status": "blocked",
+    "flags": [
+      "uom_mismatch"
+    ]
+  }
+}

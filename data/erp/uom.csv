@@ -1,0 +1,34 @@
+item_number,uom,factor,aliases
+MS-GLV-NIT-M,EA,1,each|ea|glove
+MS-GLV-NIT-M,BX,100,box|bx|bx/100|box of 100
+MS-GLV-NIT-M,CS,1000,case|cs|cse|ca|case/10bx
+MS-GLV-NIT-L,EA,1,each|ea|glove
+MS-GLV-NIT-L,BX,100,box|bx|bx/100|box of 100
+MS-GLV-NIT-L,CS,1000,case|cs|cse|ca|case/10bx
+MS-SYR-10L,EA,1,each|ea
+MS-SYR-10L,BX,100,box|bx
+MS-SYR-10L,CS,800,case|cs
+MS-GAU-44S,EA,1,each|ea
+MS-GAU-44S,PK,10,pack|pk|pkg|pkt
+MS-GAU-44S,CS,1200,case|cs
+MS-TAP-1SC,RL,1,roll|rl|rls|ea|each
+MS-TAP-1SC,BX,12,box|bx
+MS-MSK-L3,EA,1,each|ea
+MS-MSK-L3,BX,50,box|bx|bx/50
+MS-MSK-L3,CS,500,case|cs
+MS-ALC-PAD,EA,1,each|ea
+MS-ALC-PAD,BX,200,box|bx
+MS-ALC-PAD,CS,4000,case|cs
+MS-BND-EL4,EA,1,each|ea
+MS-BND-EL4,BX,10,box|bx
+MS-CTH-F16,EA,1,each|ea
+MS-CTH-F16,BX,10,box|bx|bx/10
+MS-SHP-1QT,EA,1,each|ea
+MS-SHP-1QT,CS,24,case|cs
+MS-THM-DIG,EA,1,each|ea
+MS-THM-DIG,BX,12,box|bx
+MS-IVK-STD,EA,1,each|ea|kit
+MS-IVK-STD,CS,50,case|cs
+MS-SPL-WR,EA,1,each|ea
+MS-DRS-FOAM,EA,1,each|ea
+MS-DRS-FOAM,BX,10,box|bx

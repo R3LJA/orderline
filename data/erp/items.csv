@@ -1,0 +1,15 @@
+item_number,description,base_uom,active
+MS-GLV-NIT-M,"Nitrile exam gloves, powder-free, medium",EA,Y
+MS-GLV-NIT-L,"Nitrile exam gloves, powder-free, large",EA,Y
+MS-SYR-10L,"Syringe 10 mL Luer lock, sterile",EA,Y
+MS-GAU-44S,"Gauze sponge 4x4 12-ply, sterile",EA,Y
+MS-TAP-1SC,Silicone surgical tape 1 in,RL,Y
+MS-MSK-L3,Procedure mask ASTM level 3,EA,Y
+MS-ALC-PAD,"Alcohol prep pad, medium",EA,Y
+MS-BND-EL4,Elastic bandage 4 in,EA,Y
+MS-CTH-F16,"Foley catheter 16 Fr, 2-way",EA,Y
+MS-SHP-1QT,Sharps container 1 qt,EA,Y
+MS-THM-DIG,Digital oral thermometer,EA,Y
+MS-IVK-STD,"IV start kit, standard",EA,Y
+MS-SPL-WR,"Wrist splint, universal",EA,Y
+MS-DRS-FOAM,"Foam dressing 4x4, bordered",EA,Y

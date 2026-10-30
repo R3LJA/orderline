@@ -1,0 +1,25 @@
+# One CSV per order, one row per line item. Header fields repeat on every row,
+# which is what most ERP order imports expect. Rename, reorder or drop columns
+# to match the import spec agreed with your integration partner.
+filename: "{customer_id}_{po_number}_{order_key}.csv"
+delimiter: ","
+header: true
+date_format: "%m/%d/%Y"
+columns:
+  - { name: ORDER_KEY,      source: order.order_key }
+  - { name: CUSTOMER_NO,    source: order.customer_id }
+  - { name: PO_NUMBER,      source: order.po_number }
+  - { name: ORDER_DATE,     source: order.order_date }
+  - { name: REQUESTED_DATE, source: order.requested_date }
+  - { name: SHIP_TO_ID,     source: order.ship_to.ship_to_id }
+  - { name: SHIP_VIA,       source: order.carrier }
+  - { name: CARRIER_ACCT,   source: order.carrier_account }
+  - { name: SHIP_NOTES,     source: order.shipping_instructions }
+  - { name: LINE_NO,        source: line.line_number }
+  - { name: ITEM_NO,        source: line.item_number }
+  - { name: CUST_PART_NO,   source: line.customer_part }
+  - { name: QTY,            source: line.quantity, format: "{:g}" }
+  - { name: UOM,            source: line.unit_of_measure }
+  - { name: UNIT_PRICE,     source: line.unit_price, format: "{:.2f}" }
+  - { name: REVIEW_STATUS,  source: order.review_status }
+  - { name: REVIEW_FLAGS,   source: order.flag_codes }

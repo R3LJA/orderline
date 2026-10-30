@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orderline"
+version = "0.1.0"
+description = "An AI agent that turns emailed PDF purchase orders into ERP-ready CSVs, with every uncertain field flagged for a person."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Relja Bulajic" }]
+dependencies = [
+  "anthropic>=0.80",
+  "pydantic>=2.9",
+  "pymupdf>=1.25",
+  "pypdf>=5.0",
+  "rapidfuzz>=3.9",
+  "numpy>=2.0",
+  "pillow>=11.0",
+  "pyyaml>=6.0",
+  "jinja2>=3.1",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "reportlab>=4.2", "playwright>=1.48"]
+azure = ["azure-functions>=1.21", "azure-storage-blob>=12.23", "azure-identity>=1.19"]
+
+[project.scripts]
+orderline = "orderline.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["orderline*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore:builtin type .* has no __module__ attribute:DeprecationWarning"]

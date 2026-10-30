@@ -1,0 +1,37 @@
+{
+  "file": "06-mesa-fax-MOP-1187.pdf",
+  "po_number": "MOP-1187",
+  "customer_name": "Mesa Orthopedic Partners",
+  "order_date": "2026-10-28",
+  "requested_date": "2026-11-10",
+  "ship_to_postal_code": "85018",
+  "carrier_account": "FedEx 7714-2290-3",
+  "lines": [
+    {
+      "customer_part": "MOP-SPL-01",
+      "quantity": 12,
+      "unit_of_measure": "EA",
+      "unit_price": 13.05
+    },
+    {
+      "customer_part": "MOP-FD-44",
+      "quantity": 6,
+      "unit_of_measure": "BX",
+      "unit_price": 34.2
+    },
+    {
+      "customer_part": "MS-GLV-NIT-M",
+      "quantity": 1,
+      "unit_of_measure": "CS",
+      "unit_price": 106.0
+    }
+  ],
+  "expected": {
+    "customer_id": "C10132",
+    "ship_to_id": "ST-32-01",
+    "status": "check",
+    "flags": [
+      "unclear_field"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "file": "02-lakeside-LSC-2291.pdf",
+  "po_number": "LSC-2291",
+  "customer_name": "Lakeside Surgical Center",
+  "order_date": "2026-10-28",
+  "requested_date": "2026-11-05",
+  "ship_to_postal_code": "53703",
+  "carrier_account": null,
+  "lines": [
+    {
+      "customer_part": "MS-GLV-NIT-L",
+      "quantity": 15,
+      "unit_of_measure": "BX",
+      "unit_price": 12.0
+    },
+    {
+      "customer_part": "MS-GAU-44S",
+      "quantity": 1,
+      "unit_of_measure": "case",
+      "unit_price": 352.0
+    },
+    {
+      "customer_part": "MS-ALC-PAD",
+      "quantity": 10,
+      "unit_of_measure": "BX",
+      "unit_price": 4.5
+    }
+  ],
+  "expected": {
+    "customer_id": "C10045",
+    "ship_to_id": "ST-45-01",
+    "status": "check",
+    "flags": [
+      "price_mismatch"
+    ]
+  }
+}

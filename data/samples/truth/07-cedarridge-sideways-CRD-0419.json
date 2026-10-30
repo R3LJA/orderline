@@ -1,0 +1,35 @@
+{
+  "file": "07-cedarridge-sideways-CRD-0419.pdf",
+  "po_number": "CRD-0419",
+  "customer_name": "Cedar Ridge Dental Group",
+  "order_date": "2026-10-27",
+  "requested_date": "2026-11-03",
+  "ship_to_postal_code": "28803",
+  "carrier_account": null,
+  "lines": [
+    {
+      "customer_part": "MS-GLV-NIT-M",
+      "quantity": 8,
+      "unit_of_measure": "BX",
+      "unit_price": 12.5
+    },
+    {
+      "customer_part": "MS-MSK-L3",
+      "quantity": 6,
+      "unit_of_measure": "BX",
+      "unit_price": 18.0
+    },
+    {
+      "customer_part": "MS-SHP-1QT",
+      "quantity": 4,
+      "unit_of_measure": "EA",
+      "unit_price": 5.25
+    }
+  ],
+  "expected": {
+    "customer_id": "C10150",
+    "ship_to_id": "ST-50-01",
+    "status": "clean",
+    "flags": []
+  }
+}

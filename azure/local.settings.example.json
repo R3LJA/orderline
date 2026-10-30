@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "ORDERLINE_SCHEDULE": "0 */5 * * * *",
+    "ORDERLINE_STORAGE_URL": "https://<storage>.blob.core.windows.net",
+    "ORDERLINE_PROVIDER": "foundry",
+    "ORDERLINE_MODEL": "<your Claude deployment name in Foundry>",
+    "ORDERLINE_EFFORT": "medium",
+    "ANTHROPIC_FOUNDRY_RESOURCE": "<foundry-resource-name>",
+    "ANTHROPIC_FOUNDRY_API_KEY": "<from Key Vault in Azure>",
+    "GRAPH_TENANT_ID": "<tenant id>",
+    "GRAPH_CLIENT_ID": "<app registration client id>",
+    "GRAPH_CLIENT_SECRET": "<from Key Vault in Azure>",
+    "GRAPH_MAILBOX": "orders@yourcompany.com",
+    "GRAPH_FOLDER": "Inbox"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "11-pinevalley-77840.pdf",
+  "po_number": "77840",
+  "customer_name": "Pine Valley Clinics",
+  "order_date": "2026-10-29",
+  "requested_date": "2026-11-12",
+  "ship_to_postal_code": "83642",
+  "carrier_account": "FedEx 2231-9984-1",
+  "lines": [
+    {
+      "customer_part": "PVC-GZ-4",
+      "quantity": 12,
+      "unit_of_measure": "PK",
+      "unit_price": 2.95
+    },
+    {
+      "customer_part": "PVC-IVK",
+      "quantity": 1,
+      "unit_of_measure": "CS",
+      "unit_price": 195.0
+    }
+  ],
+  "expected": {
+    "customer_id": "C10078",
+    "ship_to_id": "ST-78-02",
+    "status": "check",
+    "flags": [
+      "item_fuzzy_match"
+    ]
+  }
+}

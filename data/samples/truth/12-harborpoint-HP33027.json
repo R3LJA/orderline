@@ -1,0 +1,29 @@
+{
+  "file": "12-harborpoint-HP33027.pdf",
+  "po_number": "HP33027",
+  "customer_name": "Harbor Point Medical Supply",
+  "order_date": "2026-10-29",
+  "requested_date": "2026-11-18",
+  "ship_to_postal_code": "04101",
+  "carrier_account": "Estes acct 0098812",
+  "lines": [
+    {
+      "customer_part": "HP 300-119",
+      "quantity": 10,
+      "unit_of_measure": "CS",
+      "unit_price": 98.0
+    },
+    {
+      "customer_part": "HP 520-001",
+      "quantity": 4,
+      "unit_of_measure": "CS",
+      "unit_price": 104.0
+    }
+  ],
+  "expected": {
+    "customer_id": "C10103",
+    "ship_to_id": "ST-03-01",
+    "status": "clean",
+    "flags": []
+  }
+}

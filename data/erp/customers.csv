@@ -1,0 +1,9 @@
+customer_id,name,aliases,email_domains,price_list
+C10021,Northwind Health System,Northwind Health|NWHS,northwindhealth.example,CONTRACT-A
+C10045,Lakeside Surgical Center,Lakeside Surgical|LSC,lakesidesurgical.example,LIST
+C10078,Pine Valley Clinics,Pine Valley Clinic Group|PVC,pinevalleyclinics.example,CONTRACT-B
+C10103,Harbor Point Medical Supply,Harbor Point|HPMS,harborpointmed.example,DIST
+C10117,St. Brigid Rehabilitation Center,St Brigid Rehab|Saint Brigid Rehab,stbrigidrehab.example,LIST
+C10132,Mesa Orthopedic Partners,Mesa Ortho,mesaortho.example,CONTRACT-A
+C10150,Cedar Ridge Dental Group,Cedar Ridge Dental,cedarridgedental.example,LIST
+C10166,Bayview Animal Hospital,Bayview Vet,bayviewanimal.example,LIST
